@@ -8,7 +8,7 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: auto;
+  height: 300px;
 }
 
 div.desc {
@@ -23,7 +23,8 @@ div.desc {
 .responsive {
   padding: 0 6px;
   float: left;
-  width: 24.99999%;
+  width: 33%;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 700px) {
