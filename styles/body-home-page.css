@@ -1,3 +1,8 @@
+div.parent {
+  margin: 0;
+  padding: 0;
+}
+
 .parent {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
