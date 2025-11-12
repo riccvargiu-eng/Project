@@ -15,5 +15,9 @@ div.parent {
 .div1,
 .div2,
 .div3 {
-  border: 2px solid black;
+  background-color: black;
+}
+
+body {
+  background-color: black;
 }
