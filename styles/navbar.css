@@ -1,3 +1,8 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
 ul {
   list-style-type: none;
   margin: 0;

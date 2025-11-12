@@ -6,12 +6,13 @@
   width: 100%;
   height: auto;
   flex-wrap: wrap;
+  background-image: url("../imgs/Background.jpg");
 }
 
 .box {
   width: 30vw;
   height: 50vh;
-  margin: 10px;
+  margin: 0;
   background-size: cover;
   background-position: center;
 }
@@ -24,4 +25,13 @@
 }
 .opeth {
   background-image: url("../imgs/Opeth.jpg");
+}
+.gallerybar {
+  width: 100%;
+  height: 45px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
