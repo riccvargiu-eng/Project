@@ -1,47 +1,29 @@
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid black;
+  border-radius: 10px;
   width: 100%;
-  height: 300px;
+  height: auto;
+  flex-wrap: wrap;
 }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
+.box {
+  width: 30vw;
+  height: 50vh;
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-* {
-  box-sizing: border-box;
+.korn {
+  background-image: url("../imgs/Korn.jpg");
 }
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 33%;
-  object-fit: cover;
+.linkin {
+  background-image: url("../imgs/Linkin-Park.jpg");
 }
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+.opeth {
+  background-image: url("../imgs/Opeth.jpg");
 }

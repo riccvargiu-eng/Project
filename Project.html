@@ -6,48 +6,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/header+footer.css" />
     <link rel="stylesheet" href="./styles/gallery.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
   </head>
   <body>
     <header>
       <h1>Metal</h1>
     </header>
-    <ul>
-      <li><a href="Home">Home</a></li>
-      <li><a href="Gallery">News</a></li>
-      <li><a href="Story">Contact</a></li>
-      <li><a href="Links">About</a></li>
+    <ul class="navbar">
+      <li><a href="Home navbar">Home</a></li>
+      <li><a href="Gallery navbar">News</a></li>
+      <li><a href="Story navbar">Contact</a></li>
+      <li><a href="Links navbar">About</a></li>
     </ul>
     <h2>Responsive Image Gallery</h2>
 
     <h4>Resize the browser window to see the effect.</h4>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="./imgs/Korn.jpg">
-          <img src="./imgs/Korn.jpg" alt="Korn" width="600" height="400" />
-        </a>
-        <div class="desc">Korn</div>
-      </div>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="./imgs/Linkin-Park.jpg">
-          <img src="./imgs/Linkin-Park.jpg" alt="Linkin-Park" />
-        </a>
-        <div class="desc">Linkin Park</div>
-      </div>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="./imgs/Opeth.jpg">
-          <img src="./imgs/Opeth.jpg" alt="Opeth" width="600" height="400" />
-        </a>
-        <div class="desc">Opeth</div>
-      </div>
-    </div>
-    <div class="clearfix"></div>
+    <section class="gallery">
+      <div class="box korn">Box 1</div>
+      <div class="box linkin">Box 2</div>
+      <div class="box opeth">Box 3</div>
+    </section>
 
     <div style="padding: 6px">
       <p>
