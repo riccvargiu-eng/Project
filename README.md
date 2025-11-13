@@ -41,5 +41,5 @@ The interactive gallery functionality was taken directly from W3Schools.
 
 This project is released under the **MIT License**. See the License file for details.
 
-**Author**: Riccardo Vargiu  
+**Author**: riccvargiu  
 **Year**: 2025
