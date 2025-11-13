@@ -8,7 +8,7 @@ div.parent {
   grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: repeat(1, 1fr);
   gap: 0;
-  height: 50vh;
+  height: 60vh;
   border: 2px solid black;
   padding: 10px;
 }
@@ -21,3 +21,24 @@ div.parent {
 body {
   background-color: black;
 }
+
+.div1, .div3  {
+display: flex;
+justify-content: center;
+align align-items: center;
+}
+
+.div1 img,
+.div3 img {
+  width: 100%;             
+  max-width: 300px;       
+  height: auto;            
+}
+
+.div2 p {
+color: white;
+font-size: 20px;
+text-align: center;
+margin-top: 50px;
+}
+
