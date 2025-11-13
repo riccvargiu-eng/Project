@@ -11,12 +11,13 @@ It features galleries, playlists, and information about my favourite bands, maki
 
 ## 📂 Project Structure
 
+```
 Project/
 ├── index.html
 ├── pages/
-│ ├── GallerySlide.html  
-│ ├── Korn.html  
-│ ├── LinkinPark.html  
+│ ├── GallerySlide.html
+│ ├── Korn.html
+│ ├── LinkinPark.html
 │ └── Opeth.html
 ├── styles/
 │ ├── header+footer.css
@@ -25,6 +26,7 @@ Project/
 │ └── body-home-page.css
 ├── imgs/
 └── README.md
+```
 
 ### 🖋️ Fonts
 
