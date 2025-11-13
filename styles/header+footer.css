@@ -1,3 +1,11 @@
+:root {
+  --font-metal: "Metal Mania", cursive;
+}
+
+body {
+  font-family: var(--font-metal);
+}
+
 header {
   background-image: url("../imgs/header.jpg");
   background-size: cover;
@@ -12,9 +20,8 @@ header {
 
 footer {
   font-size: 15px;
-  color: white;
+  color: rgba(215, 41, 41, 0.852);
   background-color: black;
-  font-weight: bold;
   width: 100%;
   padding: 10px 0;
   position: fixed;
