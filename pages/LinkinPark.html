@@ -3,7 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Likin Park</title>
+
+    <link rel="stylesheet" href="../styles/header+footer.css" />
+    <link rel="stylesheet" href="../styles/navbar.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .background {
+        background-image: url(../imgs/Linkin-Park.jpg);
+        background-size: cover;
+        background-position: top;
+        flex-grow: 2;
+      }
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .background p {
+        color: white;
+        background-color: black;
+        margin: 200px 200px 30px;
+        font-size: 25px;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Metal</h1>
+    </header>
+    <ul class="navbar">
+      <li><a href="Home navbar">Home</a></li>
+      <li><a href="Gallery navbar">Gallery</a></li>
+      <li><a href="Story navbar">Story</a></li>
+      <li><a href="Links navbar">Links</a></li>
+    </ul>
+    <div class="background">
+      <p>
+        Linkin Park was formed in Agoura Hills, California in 1996 and quickly
+        became a defining act of the early 2000s nu‑metal and alternative rock
+        scene. Their debut album, Hybrid Theory (2000), fused heavy guitar
+        riffs, rap, electronic elements, and melodic choruses, achieving massive
+        global success. As their career progressed, the band broadened their
+        sound with albums such as Meteora (2003) and Minutes to Midnight (2007),
+        exploring alternative rock, electronica, and pop‑influenced textures.
+        After the tragic passing of lead vocalist Chester Bennington in 2017,
+        the band entered a hiatus but announced a new chapter in 2024.
+      </p>
+    </div>
+    <footer>
+      <p>
+        “I’m strong on the outside, not all the way through. I’ve never been
+        perfect, but neither have you.” - Chester Bennington
+      </p>
+    </footer>
+  </body>
 </html>
